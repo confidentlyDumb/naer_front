@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nær</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/src/assets/css/tailwind.output.css" />
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.css"/>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <script type="module" src="/src/main.js"></script>
+    <!-- Uncomment to add Vanta.js bg:
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script> -->
+    <link rel="stylesheet" href="/src/assets/css/tailwind.output.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js" defer></script>
+    <script id="linechart"></script>
+    <script id="piechart"></script>
+
+    <script>
+    /**
+     * Apply dark or light theme to the page.
+     */
+    if ((window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches)
+                           || localStorage.theme == 'dark') {
+
+        document.documentElement.classList.add('theme-dark')
+        localStorage.theme = 'dark'
+    } else {
+        document.documentElement.classList.remove('theme-dark')
+        localStorage.theme = 'light'
+    }
+
+    window.onload = function () {
+        /**
+         * Render interactive net background
+         * for login, register, and forgot password pages.
+         */
+        const path = window.location.pathname;
+        
+        /* Uncomment to add Vanta.js bg:
+        
+        if (['/', '/register', '/forgot-password'].includes(path)) {
+
+            setTimeout(() => {
+                VANTA.NET({
+                    el: "main",
+                    mouseControls: true,
+                    touchControls: true,
+                    gyroControls: false,
+                    minHeight: 200.00,
+                    minWidth: 200.00,
+                    scale: 1.00,
+                    scaleMobile: 1.00,
+                    color: 0x3f6cff,
+                    points: 15.00,
+                    maxDistance: 18.00,
+                    backgroundColor: 0x121317
+                }) 
+            }, 10);
+            
+        
+         * Render charts for dashboard pages
+         * that showcase any robot statistics.
+        
+        } else */ if (path.includes('dashboard') && !(['/dashboard/fields', '/dashboard/field',
+                                                    '/dashboard/tasks',  '/dashboard/block'
+                                                    ].includes(path))) {
+
+            setTimeout(() => {
+                const scripts  = [document.createElement('script'),
+                                  document.createElement('script')];
+
+                document.querySelector("#linechart").src = '/src/assets/js/charts-lines.js';
+                document.querySelector("#piechart").src  = '/src/assets/js/charts-pie.js';
+
+            }, 10);
+        }
+
+        /**
+         * Move sidebar current page indicator
+         * to a link matching the current page.
+         */
+        
+        if (['/dashboard',       '/dashboard/fields', '/dashboard/field',
+             '/dashboard/tasks', '/dashboard/block'].includes(path)) {
+
+            setTimeout(() => {
+                const indicator = document.querySelector('#indicator'),
+                      current   = document.querySelector('#sidebar a[href="' + path + '"]');
+
+                indicator.remove();
+                current.insertAdjacentElement('beforebegin', indicator);
+                current.classList.add("text-gray-800", "dark:text-gray-100");
+            }, 20);
+
+        }
+
+    }
+    </script>
+  </body>
+</html>
