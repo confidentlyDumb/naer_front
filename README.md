@@ -1,6 +1,8 @@
-# vue-project
+# Nær
 
-This template should help get you started developing with Vue 3 in Vite.
+Nær dashboard : views, styles and front logic.
+
+## Thjis is a Vue.js project.
 
 ## Recommended IDE Setup
 
