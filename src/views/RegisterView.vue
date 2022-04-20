@@ -1,5 +1,6 @@
 <script setup>
 import Register from '@/components/Register.vue'
+import Modal from '@/components/modals/Alert.vue'
 </script>
 
 <template>
@@ -10,4 +11,5 @@ import Register from '@/components/Register.vue'
         </div>
     </div>
 </main>
+<Modal />
 </template>
