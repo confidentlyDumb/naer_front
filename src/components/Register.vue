@@ -125,6 +125,8 @@
                         this.loading = false;
                         this.success = true;
                         this.message = response.data.message;
+
+                        window.location.href = "/dashboard";
                     })
                     .catch((error) => {
                         this.loading = false;

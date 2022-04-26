@@ -47,7 +47,7 @@ const router = createRouter({
         component: () => import('../views/dashboard/DashFields.vue')
     },
     {
-        path: '/dashboard/field',
+        path: '/dashboard/field/?id=',
         name: 'field',
         component: () => import('../views/dashboard/DashField.vue')
     },
@@ -60,6 +60,16 @@ const router = createRouter({
         path: '/dashboard/task/?id=',
         name: 'task',
         component: () => import('../views/dashboard/DashTask.vue')
+    },
+    {
+        path: '/dashboard/robots',
+        name: 'robots',
+        component: () => import('../views/dashboard/DashRobots.vue')
+    },
+    {
+        path: '/dashboard/robot/?id=',
+        name: 'robot',
+        component: () => import('../views/dashboard/Dashrobot.vue')
     },
     {
         path: '/dashboard/block/?id=:id',

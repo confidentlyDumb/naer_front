@@ -7,8 +7,8 @@ const app = createApp(App)
 app.use(router)
 
 function showModal(error) {
-    let aWrap    = document.querySelector("#alerts"),
-    alerts   = aWrap.querySelector("ul");
+    let aWrap = document.querySelector("#alerts"),
+    alerts    = aWrap.querySelector("ul");
 
     aWrap.classList.replace("opacity-0", "opacity-100");
     aWrap.classList.replace("pointer-events-none", "pointer-events-auto");
