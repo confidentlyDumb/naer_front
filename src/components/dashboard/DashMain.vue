@@ -376,7 +376,7 @@
                   <div>
                     <p class="font-semibold">Block 2</p>
                     <p class="text-xs text-gray-600 dark:text-gray-400">
-                      Filed 3
+                      Field 3
                     </p>
                   </div>
                 </div>
