@@ -4,6 +4,8 @@
     import Header    from '@/components/dashboard/Header.vue'
     import DashField from '@/components/dashboard/DashField.vue'
     import Dropdown  from '@/components/dashboard/dropdown.vue'
+    import Datepicker from '@themesberg/tailwind-datepicker/Datepicker';
+    import DateRangePicker from '@themesberg/tailwind-datepicker/DateRangePicker';
 
 </script>
 
