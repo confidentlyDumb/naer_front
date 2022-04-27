@@ -53,19 +53,18 @@ input[type=number]::-webkit-inner-spin-button {
             >
             <div class="w-1/4 mr-4">
                 <button
-                @click="openModal('remField')"
+                @click="openModal('remBlock')"
                 class="flex w-full items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-red-600 transition-colors duration-150 border border-red-600 rounded-lg active:bg-transparent hover:border-red-500 hover:text-red-500 focus:border-red-500 focus:text-red-500 active:text-red-500 focus:outline-none focus:shadow-outline-gray"
                 >
                 <span>Erase data</span>
                 </button>
             </div>
             <div class="w-2/5">
-                <a
-                href="/dashboard/field/456"
+                <button  @click="openModal('editBlock')"
                 class="flex items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple w-full"
                 >
                 <span>Edit / add tasks</span>
-                </a>
+                </button>
             </div>
             </div>
         </div>
@@ -112,19 +111,18 @@ input[type=number]::-webkit-inner-spin-button {
             >
             <div class="w-1/4 mr-4">
                 <button
-                @click="openModal('remField')"
+                @click="openModal('remBlock')"
                 class="flex w-full items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-red-600 transition-colors duration-150 border border-red-600 rounded-lg active:bg-transparent hover:border-red-500 hover:text-red-500 focus:border-red-500 focus:text-red-500 active:text-red-500 focus:outline-none focus:shadow-outline-gray"
                 >
                 <span>Erase data</span>
                 </button>
             </div>
             <div class="w-2/5">
-                <a
-                href="/dashboard/field/456"
+                <button  @click="openModal('editBlock')"
                 class="flex items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple w-full"
                 >
                 <span>Edit / add tasks</span>
-                </a>
+                </button>
             </div>
             </div>
         </div>
@@ -171,7 +169,7 @@ input[type=number]::-webkit-inner-spin-button {
             >
                 <div class="w-1/4 mr-4">
                     <button
-                    @click="openModal('remField')"
+                    @click="openModal('remBlock')"
                     class="flex w-full items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-red-600 transition-colors duration-150 border border-red-600 rounded-lg active:bg-transparent hover:border-red-500 hover:text-red-500 focus:border-red-500 focus:text-red-500 active:text-red-500 focus:outline-none focus:shadow-outline-gray"
                     >
                     <span>Erase data</span>
@@ -728,7 +726,7 @@ input[type=number]::-webkit-inner-spin-button {
               </label>
               
               <label class="block text-sm mt-4">
-                <span class="text-gray-700 dark:text-gray-400">Blocks</span>
+                <span class="text-gray-700 dark:text-gray-400">Size (m<span class="absolute -mt-2 font-sm">2</span>&nbsp; )</span>
                 <input type="number" min="0" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 dark:focus:shadow-outline-gray form-input" placeholder="42" value="0">
               </label>
 
@@ -745,7 +743,7 @@ input[type=number]::-webkit-inner-spin-button {
         </div>
     </div>
 
-    <div id="remField" class="hidden fixed z-10 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+    <div id="remBlock" class="hidden fixed z-10 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
     <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
         
         <div class="fixed inset-0 bg-black bg-opacity-50 transition-opacity" aria-hidden="true"></div>
@@ -770,7 +768,7 @@ input[type=number]::-webkit-inner-spin-button {
         </div>
         <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse dark:bg-gray-900">
             <button type="button" class="w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-red-600 text-base font-medium text-white hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-red-500 sm:ml-3 sm:w-auto sm:text-sm">Delete</button>
-            <button  @click="closeModal('remField')" type="button" class="flex  items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-blue-600 transition-colors duration-150 border border-blue-600 rounded-lg active:bg-transparent hover:border-blue-500 hover:text-blue-500 focus:border-blue-500 focus:text-blue-500 active:text-blue-500 focus:outline-none focus:shadow-outline-gray">Cancel</button>
+            <button  @click="closeModal('remBlock')" type="button" class="flex  items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-blue-600 transition-colors duration-150 border border-blue-600 rounded-lg active:bg-transparent hover:border-blue-500 hover:text-blue-500 focus:border-blue-500 focus:text-blue-500 active:text-blue-500 focus:outline-none focus:shadow-outline-gray">Cancel</button>
         </div>
         </div>
     </div>
@@ -792,7 +790,7 @@ export default {
     openModal: function (elem) {
         let modal = document.getElementById(elem);
 
-            elem != "remField" ? modal.classList.replace('hidden', 'flex')
+            elem != "remBlock" ? modal.classList.replace('hidden', 'flex')
                                : modal.classList.remove('hidden');
             modal.classList.replace('opacity-0', 'opacity-100');
     },
@@ -800,7 +798,7 @@ export default {
     closeModal: function (elem) {
         let modal = document.getElementById(elem);
 
-            elem != "remField" ? modal.classList.replace('flex', 'hidden')
+            elem != "remBlock" ? modal.classList.replace('flex', 'hidden')
                                : modal.classList.add('hidden');
             modal.classList.replace('opacity-100', 'opacity-0')
     }
