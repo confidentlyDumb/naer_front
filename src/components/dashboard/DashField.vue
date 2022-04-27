@@ -9,78 +9,193 @@ input[type=number]::-webkit-inner-spin-button {
       <!-- Cards -->
 
     <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
-      Fields
+      Field 2 (ID: 456) / Blocks
     </h2>
     <div class="grid gap-6 mb-8 md:grid-cols-2">
       <div
         class="rp-4 bg-white rounded-lg shadow-xs dark:bg-gray-800"
       >
-      <div
-        class="flex text-base text-left transform transition md:inline-block shadow-xs w-full"
-      >
-        <span class="text-sm mx-4 mt-14 mb-8 sm:mx-6 sm:mt-8 md:m-6 lg:m-8 absolute right-0 top-0 z-10 px-2 py-1 font-semibold leading-tight text-blue-700 bg-blue-100 rounded-full dark:text-white dark:bg-blue-600"> Working </span>
         <div
-          class="rounded-lg rounded-b-none w-full relative flex items-center bg-white dark:bg-gray-800 px-4 pt-14 pb-8 overflow-hidden sm:px-6 sm:pt-8 md:p-6 lg:p-8"
+            class="flex text-base text-left transform transition md:inline-block shadow-xs w-full"
         >
-            <div class="w-full">
-              <h2
-                class="text-2xl font-extrabold text-gray-900 dark:text-gray-200 sm:pr-12"
-              >
-                Field 2
-              </h2>
+            <span class="text-sm mx-4 mt-14 mb-8 sm:mx-6 sm:mt-8 md:m-6 lg:m-8 absolute right-0 top-0 z-10 px-2 py-1 font-semibold leading-tight text-blue-700 bg-blue-100 rounded-full dark:text-white dark:bg-blue-600"> Working </span>
+            <div
+            class="rounded-lg rounded-b-none w-full relative flex items-center bg-white dark:bg-gray-800 px-4 pt-14 pb-8 overflow-hidden sm:px-6 sm:pt-8 md:p-6 lg:p-8"
+            >
+                <div class="w-full">
+                <h2
+                    class="text-2xl font-extrabold text-gray-900 dark:text-gray-200 sm:pr-12"
+                >
+                    Block 5
+                </h2>
 
-              <section aria-labelledby="information-heading" class="mt-2">
-                <p class="mb-5 text-2xl text-gray-900 dark:text-gray-300">
-                  ID: 456
-                </p>
-                <p class=" my-3 text-lg text-gray-900 dark:text-gray-400">
-                  Crop: eggplant
-                </p>
-                <p class="mb-3 text-lg text-gray-900 dark:text-gray-400">
-                  Currently: plant (eggplant)<br>
-                  <span class="text-sm text-gray-500 flex">
-                  <svg class="mr-2 mb-1" fill="currentColor" width="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
-                  At block: 5</span>
-                  <span class="text-sm text-gray-500 flex">
-                  <svg class="mr-2" fill="currentColor" width="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/></svg>
-                  Time remaining: 2 hrs, 27 min</span>
-                </p>
-                <p class=" my-3 text-lg text-gray-900 dark:text-gray-400">
-                  Worker: Robot Name (id: 123)
-                </p>
-              </section>
+                <section aria-labelledby="information-heading" class="mt-2">
+                    <p class="mb-5 text-2xl text-gray-900 dark:text-gray-300">
+                    ID: 420
+                    </p>
+                    <p class=" my-3 text-lg text-gray-900 dark:text-gray-400">
+                    Crop: eggplant
+                    </p>
+                    <p class="mb-3 text-lg text-gray-900 dark:text-gray-400">
+                    Currently: plant (eggplant)<br>
+                    <span class="text-sm text-gray-500 flex">
+                    <svg class="mr-2" fill="currentColor" width="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/></svg>
+                    Time remaining: 2 hrs, 27 min</span>
+                    </p>
+                    <p class=" my-3 text-lg text-gray-900 dark:text-gray-400">
+                    Worker: Robot Name (id: 123)
+                    </p>
+                </section>
+                </div>
+            </div>
+            <div
+            class="border-t px-4 py-4 sm:px-6 sm:py-4 md:p-6 lg:p-8 rounded-t-none flex w-full justify-end rounded-lg dark:border-gray-700 bg-gray-50 dark:bg-gray-800"
+            >
+            <div class="w-1/4 mr-4">
+                <button
+                @click="openModal('remField')"
+                class="flex w-full items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-red-600 transition-colors duration-150 border border-red-600 rounded-lg active:bg-transparent hover:border-red-500 hover:text-red-500 focus:border-red-500 focus:text-red-500 active:text-red-500 focus:outline-none focus:shadow-outline-gray"
+                >
+                <span>Erase data</span>
+                </button>
+            </div>
+            <div class="w-2/5">
+                <a
+                href="/dashboard/field/456"
+                class="flex items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple w-full"
+                >
+                <span>Activity log</span>
+                </a>
+            </div>
             </div>
         </div>
-        <div
-          class="border-t px-4 py-4 sm:px-6 sm:py-4 md:p-6 lg:p-8 rounded-t-none flex w-full justify-end rounded-lg dark:border-gray-700 bg-gray-50 dark:bg-gray-800"
-        >
-        <div class="w-1/4 mr-4">
-            <button
-              @click="openModal('remField')"
-              class="flex w-full items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-red-600 transition-colors duration-150 border border-red-600 rounded-lg active:bg-transparent hover:border-red-500 hover:text-red-500 focus:border-red-500 focus:text-red-500 active:text-red-500 focus:outline-none focus:shadow-outline-gray"
-            >
-              <span>Erase data</span>
-            </button>
-          </div>
-          <div class="w-2/5">
-            <a
-              href="/dashboard/field/123"
-              class="flex items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple w-full"
-            >
-              <span>All blocks & tasks</span>
-            </a>
-          </div>
-        </div>
+
       </div>
+            <div
+        class="rp-4 bg-white rounded-lg shadow-xs dark:bg-gray-800"
+      >
+        <div
+            class="flex text-base text-left transform transition md:inline-block shadow-xs w-full"
+        >
+            <span class="text-sm mx-4 mt-14 mb-8 sm:mx-6 sm:mt-8 md:m-6 lg:m-8 absolute right-0 top-0 z-10 px-2 py-1 font-semibold leading-tight text-gray-700 bg-gray-100 rounded-full dark:text-white dark:bg-gray-600"> Resting </span>
+            <div
+            class="rounded-lg rounded-b-none w-full relative flex items-center bg-white dark:bg-gray-800 px-4 pt-14 pb-8 overflow-hidden sm:px-6 sm:pt-8 md:p-6 lg:p-8"
+            >
+                <div class="w-full">
+                <h2
+                    class="text-2xl font-extrabold text-gray-900 dark:text-gray-200 sm:pr-12"
+                >
+                    Block 10
+                </h2>
+
+                <section aria-labelledby="information-heading" class="mt-2">
+                    <p class="mb-5 text-2xl text-gray-900 dark:text-gray-300">
+                    ID: 228
+                    </p>
+                    <p class=" my-3 text-lg text-gray-900 dark:text-gray-400">
+                    Crop: pumpkin
+                    </p>
+                    <p class="mb-3 text-lg text-gray-900 dark:text-gray-400">
+                    Currently: nothing's happening<br>
+                    <span class="text-sm text-gray-500 flex">
+                    <svg class="mr-2" fill="currentColor" width="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/></svg>
+                    Time remaining: 0 hrs, 0 min</span>
+                    </p>
+                    <p class=" my-3 text-lg text-gray-900 dark:text-gray-400">
+                    Worker: none
+                    </p>
+                </section>
+                </div>
+            </div>
+            <div
+            class="border-t px-4 py-4 sm:px-6 sm:py-4 md:p-6 lg:p-8 rounded-t-none flex w-full justify-end rounded-lg dark:border-gray-700 bg-gray-50 dark:bg-gray-800"
+            >
+            <div class="w-1/4 mr-4">
+                <button
+                @click="openModal('remField')"
+                class="flex w-full items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-red-600 transition-colors duration-150 border border-red-600 rounded-lg active:bg-transparent hover:border-red-500 hover:text-red-500 focus:border-red-500 focus:text-red-500 active:text-red-500 focus:outline-none focus:shadow-outline-gray"
+                >
+                <span>Erase data</span>
+                </button>
+            </div>
+            <div class="w-2/5">
+                <a
+                href="/dashboard/field/456"
+                class="flex items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple w-full"
+                >
+                <span>Activity log</span>
+                </a>
+            </div>
+            </div>
+        </div>
+
+      </div>
+            <div
+        class="rp-4 bg-white rounded-lg shadow-xs dark:bg-gray-800"
+      >
+        <div
+            class="flex text-base text-left transform transition md:inline-block shadow-xs w-full"
+        >
+            <span class="text-sm mx-4 mt-14 mb-8 sm:mx-6 sm:mt-8 md:m-6 lg:m-8 absolute right-0 top-0 z-10 px-2 py-1 font-semibold leading-tight text-gray-700 bg-gray-100 rounded-full dark:text-white dark:bg-gray-600"> Resting </span>
+            <div
+            class="rounded-lg rounded-b-none w-full relative flex items-center bg-white dark:bg-gray-800 px-4 pt-14 pb-8 overflow-hidden sm:px-6 sm:pt-8 md:p-6 lg:p-8"
+            >
+                <div class="w-full">
+                <h2
+                    class="text-2xl font-extrabold text-gray-900 dark:text-gray-200 sm:pr-12"
+                >
+                    Block 12
+                </h2>
+
+                <section aria-labelledby="information-heading" class="mt-2">
+                    <p class="mb-5 text-2xl text-gray-900 dark:text-gray-300">
+                    ID: 112
+                    </p>
+                    <p class=" my-3 text-lg text-gray-900 dark:text-gray-400">
+                    Crop: tomato
+                    </p>
+                    <p class="mb-3 text-lg text-gray-900 dark:text-gray-400">
+                    Currently: nothing's happening<br>
+                    <span class="text-sm text-gray-500 flex">
+                    <svg class="mr-2" fill="currentColor" width="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/></svg>
+                    Time remaining: 0 hrs, 0 min</span>
+                    </p>
+                    <p class=" my-3 text-lg text-gray-900 dark:text-gray-400">
+                    Worker: none
+                    </p>
+                </section>
+                </div>
+            </div>
+            <div
+            class="border-t px-4 py-4 sm:px-6 sm:py-4 md:p-6 lg:p-8 rounded-t-none flex w-full justify-end rounded-lg dark:border-gray-700 bg-gray-50 dark:bg-gray-800"
+            >
+            <div class="w-1/4 mr-4">
+                <button
+                @click="openModal('remField')"
+                class="flex w-full items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-red-600 transition-colors duration-150 border border-red-600 rounded-lg active:bg-transparent hover:border-red-500 hover:text-red-500 focus:border-red-500 focus:text-red-500 active:text-red-500 focus:outline-none focus:shadow-outline-gray"
+                >
+                <span>Erase data</span>
+                </button>
+            </div>
+            <div class="w-2/5">
+                <a
+                href="/dashboard/field/456"
+                class="flex items-center justify-center px-4 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-purple-600 border border-transparent rounded-lg active:bg-purple-600 hover:bg-purple-700 focus:outline-none focus:shadow-outline-purple w-full"
+                >
+                <span>Activity log</span>
+                </a>
+            </div>
+            </div>
+        </div>
 
       </div>
       <div
         class="relative flex justify-center items-center rp-4 bg-white rounded-lg shadow-xs dark:bg-gray-800 "
       >
 
-      <div class="w-1/2 relative -mt-10 flex flex-col">
-        <img src="/src/assets/img/newField.svg">
-        <button class="mt-6 flex items-center justify-center self-center px-10 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-purple" v-on:click="openModal('modal')">Create field</button>
+      <div class="w-2/5 relative -mt-8 flex flex-col">
+        <img src="/src/assets/img/newBlock.svg">
+        <button class="mt-10 flex items-center justify-center self-center px-10 py-2 text-sm font-medium leading-5 text-white transition-colors duration-150 bg-blue-600 border border-transparent rounded-lg active:bg-blue-600 hover:bg-blue-700 focus:outline-none focus:shadow-outline-purple" v-on:click="openModal('modal')">Create block</button>
 
       </div>
     </div>
@@ -100,7 +215,7 @@ input[type=number]::-webkit-inner-spin-button {
             
             <div class="mt-4 mb-6">
             <p class="mb-2 text-lg font-semibold text-gray-700 dark:text-gray-300">
-                Create field
+                Create block
             </p>
             <div class="py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800">
               <label class="block text-sm">
@@ -148,9 +263,9 @@ input[type=number]::-webkit-inner-spin-button {
                 </svg>
             </div>
             <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                <h3 class="text-lg leading-6 font-medium text-gray-900 dark:text-gray-200" id="modal-title">Delete field</h3>
+                <h3 class="text-lg leading-6 font-medium text-gray-900 dark:text-gray-200" id="modal-title">Delete block</h3>
                 <div class="mt-2">
-                <p class="text-sm text-gray-500 dark:text-gray-400">Are you sure you want to delete this field record? All the tasks and blocks associated with it will be untracked.</p>
+                <p class="text-sm text-gray-500 dark:text-gray-400">Are you sure you want to delete this block record? All the tasks associated with it will be untracked.</p>
                 </div>
             </div>
             </div>
