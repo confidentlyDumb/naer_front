@@ -5,9 +5,9 @@
     </h2>
     <div>
       <div
-        class="flex text-base text-left transform transition md:inline-block md:my-8 w-full 2xl:w-1/2"
+        class="flex shadow-xs text-base text-left transform transition md:inline-block md:my-8 w-full 2xl:w-1/2"
       >
-      <span class="mx-4 mt-14 mb-8 sm:mx-6 sm:mt-8 md:m-6 lg:m-8 absolute right-0 top-0 z-10 px-2 py-1 font-semibold leading-tight text-blue-700 bg-blue-100 rounded-full dark:text-white dark:bg-blue-600"> Working </span>
+        <span class="mx-4 mt-14 mb-8 sm:mx-6 sm:mt-8 md:m-6 lg:m-8 absolute right-0 top-0 z-10 px-2 py-1 font-semibold leading-tight text-blue-700 bg-blue-100 rounded-full dark:text-white dark:bg-blue-600"> Working </span>
         <div
           class="w-full relative flex items-center bg-white dark:bg-gray-800 px-4 pt-14 pb-8 overflow-hidden shadow-2xl sm:px-6 sm:pt-8 md:p-6 lg:p-8"
         >
@@ -39,11 +39,15 @@
                 </p>
                 <p class="mb-3 text-lg text-gray-900 dark:text-gray-400">
                   Location: Field 1, block 7<br>
-                  <span class="text-sm text-gray-500">(55.714378453, 12.286777907)</span>
+                  <span class="text-sm text-gray-500 flex">
+                  <svg class="mr-2" fill="currentColor" width="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                  (55.714378453, 12.286777907)</span>
                 </p>
                 <p class="mb-3 text-lg text-gray-900 dark:text-gray-400">
                   Current task: plant (eggplant)<br>
-                  <span class="text-sm text-gray-500">Time remaining: 2 hrs, 27 min</span>
+                  <span class="text-sm text-gray-500 flex">
+                  <svg class="mr-2" fill="currentColor" width="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/></svg>
+                  Time remaining: 2 hrs, 27 min</span>
                 </p>
               </section>
 
