@@ -167,6 +167,7 @@ module.exports = {
         extend: {
             maxHeight: {
                 '0': '0',
+                l: '28rem',
                 xl: '36rem',
             },
             fontFamily: {

@@ -5,7 +5,7 @@
     </h2>
     <div class="grid gap-6 mb-8 md:grid-cols-2">
       <a href="/dashboard/field/?id="
-        class="relative field-itm min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800  transition duration-300 dark:hover:bg-blue-500 hover:bg-blue-500 dark:hover:text-white hover:text-white"
+        class="relative field-itm overflow-hidden min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800  transition duration-300 dark:hover:bg-blue-500 hover:bg-blue-500 dark:hover:text-white hover:text-white"
       >
       <div class="field-bg field-light top-0 left-0 pointer-events-none absolute bg-cover bg-center h-full w-full"></div>
         <h4
@@ -23,7 +23,7 @@
         </p>
       </a>
       <a href="/dashboard/field/?id="
-        class="relative field-itm min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800  transition duration-300 dark:hover:bg-blue-500 hover:bg-blue-500 dark:hover:text-white hover:text-white"
+        class="relative field-itm overflow-hidden min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800  transition duration-300 dark:hover:bg-blue-500 hover:bg-blue-500 dark:hover:text-white hover:text-white"
       >
         <div class="field-bg field-light top-0 left-0 pointer-events-none absolute bg-cover bg-center h-full w-full"></div>
 
@@ -42,7 +42,7 @@
         </p>
       </a>
       <a href="/dashboard/field/?id="
-        class="relative field-itm min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800  transition duration-300 dark:hover:bg-blue-500 hover:bg-blue-500 dark:hover:text-white hover:text-white"
+        class="relative field-itm overflow-hidden min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800  transition duration-300 dark:hover:bg-blue-500 hover:bg-blue-500 dark:hover:text-white hover:text-white"
       >
         <div class="field-bg field-light top-0 left-0 pointer-events-none absolute bg-cover bg-center h-full w-full"></div>
 
@@ -61,7 +61,7 @@
         </p>
       </a>
       <a href="/dashboard/field/?id="
-        class="relative field-itm min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800  transition duration-300 dark:hover:bg-blue-500 hover:bg-blue-500 dark:hover:text-white hover:text-white"
+        class="relative field-itm overflow-hidden min-w-0 p-4 bg-white rounded-lg shadow-xs dark:bg-gray-800  transition duration-300 dark:hover:bg-blue-500 hover:bg-blue-500 dark:hover:text-white hover:text-white"
       >
         <div class="field-bg field-light top-0 left-0 pointer-events-none absolute bg-cover bg-center h-full w-full"></div>
 
