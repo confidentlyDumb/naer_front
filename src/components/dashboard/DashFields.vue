@@ -12,13 +12,13 @@
       >
         <span class="mx-4 mt-14 mb-8 sm:mx-6 sm:mt-8 md:m-6 lg:m-8 absolute right-0 top-0 z-10 px-2 py-1 font-semibold leading-tight text-blue-700 bg-blue-100 rounded-full dark:text-white dark:bg-blue-600"> Working </span>
         <div
-          class="w-full relative flex items-center bg-white dark:bg-gray-800 px-4 pt-14 pb-8 overflow-hidden shadow-2xl sm:px-6 sm:pt-8 md:p-6 lg:p-8"
+          class="w-full relative flex items-center bg-white dark:bg-gray-800 px-4 pt-14 pb-8 overflow-hidden sm:px-6 sm:pt-8 md:p-6 lg:p-8"
         >
-            <div>
+            <div class="w-full">
               <h2
                 class="text-2xl font-extrabold text-gray-900 dark:text-gray-200 sm:pr-12"
               >
-                Field 1
+                Field 2
               </h2>
 
               <section aria-labelledby="information-heading" class="mt-2">
@@ -31,7 +31,10 @@
                 <p class="mb-3 text-lg text-gray-900 dark:text-gray-400">
                   Currently: plant (eggplant)<br>
                   <span class="text-sm text-gray-500 flex">
-                  <svg class="mr-2" fill="currentColor" width="12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/></svg>
+                  <svg class="mr-2 mb-1" fill="currentColor" width="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M168.3 499.2C116.1 435 0 279.4 0 192C0 85.96 85.96 0 192 0C298 0 384 85.96 384 192C384 279.4 267 435 215.7 499.2C203.4 514.5 180.6 514.5 168.3 499.2H168.3zM192 256C227.3 256 256 227.3 256 192C256 156.7 227.3 128 192 128C156.7 128 128 156.7 128 192C128 227.3 156.7 256 192 256z"/></svg>
+                  At block: 5</span>
+                  <span class="text-sm text-gray-500 flex">
+                  <svg class="mr-2" fill="currentColor" width="10" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"/></svg>
                   Time remaining: 2 hrs, 27 min</span>
                 </p>
                 <p class=" my-3 text-lg text-gray-900 dark:text-gray-400">
@@ -47,8 +50,9 @@
                     <tr
                       class="text-xs font-semibold tracking-wide text-left text-gray-500 uppercase border-b dark:border-gray-700 bg-gray-50 dark:text-gray-400 dark:bg-gray-800"
                     >
-                      <th class="pr-4 py-3">Location</th>
+                      <th class="pr-4 py-3">Block</th>
                       <th class="px-4 py-3">Task</th>
+                      <th class="px-4 py-3">Worker ID</th>
                       <th class="px-4 py-3">Date</th>
                     </tr>
                   </thead>
@@ -59,10 +63,7 @@
                       <td class="pr-4 py-3">
                         <div class="flex items-center text-sm">
                           <a href="/dashboard/field/?id=1">
-                            <p class="font-semibold">Block 1</p>
-                            <p class="text-xs text-gray-600 dark:text-gray-400">
-                              Field 1
-                            </p>
+                            <p class="font-semibold">5</p>
                           </a>
                         </div>
                       </td>
@@ -78,18 +79,16 @@
                             d="M64 95.1H0c0 123.8 100.3 224 224 224v128C224 465.6 238.4 480 255.1 480S288 465.6 288 448V320C288 196.3 187.7 95.1 64 95.1zM448 32c-84.25 0-157.4 46.5-195.8 115.3c27.75 30.12 48.25 66.88 59 107.5C424 243.1 512 147.9 512 32H448z"
                           />
                         </svg>
-                        Plant (strawberry)
+                        Water
                       </td>
+                      <td class="px-4 py-3 text-sm">234</td>
                       <td class="px-4 py-3 text-sm">11/06/2022</td>
                     </tr>
                     <tr class="text-gray-700 dark:text-gray-400">
                       <td class="pr-4 py-3">
                         <div class="flex items-center text-sm">
                           <a href="/dashboard/field/?id=1">
-                            <p class="font-semibold">Block 12</p>
-                            <p class="text-xs text-gray-600 dark:text-gray-400">
-                              Field 2
-                            </p>
+                            <p class="font-semibold">5</p>
                           </a>
                         </div>
                       </td>
@@ -105,19 +104,17 @@
                             d="M64 95.1H0c0 123.8 100.3 224 224 224v128C224 465.6 238.4 480 255.1 480S288 465.6 288 448V320C288 196.3 187.7 95.1 64 95.1zM448 32c-84.25 0-157.4 46.5-195.8 115.3c27.75 30.12 48.25 66.88 59 107.5C424 243.1 512 147.9 512 32H448z"
                           />
                         </svg>
-                        Plant (eggplant)
+                        Weed
                       </td>
-                      <td class="px-4 py-3 text-sm">12/06/2022</td>
+                      <td class="px-4 py-3 text-sm">345</td>
+                      <td class="px-4 py-3 text-sm">17/06/2022</td>
                     </tr>
 
                     <tr class="text-gray-700 dark:text-gray-400">
                       <td class="pr-4 py-3">
                         <div class="flex items-center text-sm">
                           <a href="/dashboard/field/?id=1">
-                            <p class="font-semibold">Block 4</p>
-                            <p class="text-xs text-gray-600 dark:text-gray-400">
-                              Field 6
-                            </p>
+                            <p class="font-semibold">5</p>
                           </a>
                         </div>
                       </td>
@@ -133,9 +130,10 @@
                             d="M64 95.1H0c0 123.8 100.3 224 224 224v128C224 465.6 238.4 480 255.1 480S288 465.6 288 448V320C288 196.3 187.7 95.1 64 95.1zM448 32c-84.25 0-157.4 46.5-195.8 115.3c27.75 30.12 48.25 66.88 59 107.5C424 243.1 512 147.9 512 32H448z"
                           />
                         </svg>
-                        Plant (tomato)
+                        Pick
                       </td>
-                      <td class="px-4 py-3 text-sm">12/06/2022</td>
+                      <td class="px-4 py-3 text-sm">456</td>
+                      <td class="px-4 py-3 text-sm">27/76/2022</td>
                     </tr>
                   </tbody>
                 </table>
@@ -143,7 +141,7 @@
             </div>
         </div>
         <div
-          class="border-t rounded-t-none flex w-full justify-end rounded-lg shadow-xs dark:border-gray-700 bg-gray-50 dark:bg-gray-800"
+          class="border-t rounded-t-none flex w-full justify-end rounded-lg dark:border-gray-700 bg-gray-50 dark:bg-gray-800"
         >
           <div class="w-1/4 p-4">
             <a
