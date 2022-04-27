@@ -47,7 +47,7 @@ const router = createRouter({
         component: () => import('../views/dashboard/DashFields.vue')
     },
     {
-        path: '/dashboard/field/?id=',
+        path: '/dashboard/field/:id',
         name: 'field',
         component: () => import('../views/dashboard/DashField.vue')
     },
@@ -65,11 +65,6 @@ const router = createRouter({
         path: '/dashboard/robots',
         name: 'robots',
         component: () => import('../views/dashboard/DashRobots.vue')
-    },
-    {
-        path: '/dashboard/block/?id=:id',
-        name: 'block',
-        component: () => import('../views/dashboard/DashBlock.vue')
     },
   ]
 })

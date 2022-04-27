@@ -5,11 +5,11 @@
     </h2>
     <div>
       <div
-        class="flex shadow-xs text-base text-left transform transition md:inline-block md:my-8 w-full 2xl:w-1/2"
+        class=" flex shadow-xs text-base text-left transform transition md:inline-block md:my-8 w-full 2xl:w-1/2"
       >
-        <span class="mx-4 mt-14 mb-8 sm:mx-6 sm:mt-8 md:m-6 lg:m-8 absolute right-0 top-0 z-10 px-2 py-1 font-semibold leading-tight text-blue-700 bg-blue-100 rounded-full dark:text-white dark:bg-blue-600"> Working </span>
+        <span class="text-sm mx-4 mt-14 mb-8 sm:mx-6 sm:mt-8 md:m-6 lg:m-8 absolute right-0 top-0 z-10 px-2 py-1 font-semibold leading-tight text-blue-700 bg-blue-100 rounded-full dark:text-white dark:bg-blue-600"> Working </span>
         <div
-          class="w-full relative flex items-center bg-white dark:bg-gray-800 px-4 pt-14 pb-8 overflow-hidden shadow-2xl sm:px-6 sm:pt-8 md:p-6 lg:p-8"
+          class="rounded-lg rounded-b-none w-full relative flex items-center bg-white dark:bg-gray-800 px-4 pt-14 pb-8 overflow-hidden sm:px-6 sm:pt-8 md:p-6 lg:p-8"
         >
           <div
             class="w-full grid grid-cols-1 gap-y-8 gap-x-6 items-start sm:grid-cols-12 lg:gap-x-8"
@@ -70,7 +70,7 @@
                     <tr class="text-gray-700 dark:text-gray-400">
                       <td class="pr-4 py-3">
                         <div class="flex items-center text-sm">
-                          <a href="/dashboard/field/?id=1">
+                          <a href="/dashboard/field/123">
                             <p class="font-semibold">Block 1</p>
                             <p class="text-xs text-gray-600 dark:text-gray-400">
                               Field 1
@@ -90,14 +90,14 @@
                             d="M64 95.1H0c0 123.8 100.3 224 224 224v128C224 465.6 238.4 480 255.1 480S288 465.6 288 448V320C288 196.3 187.7 95.1 64 95.1zM448 32c-84.25 0-157.4 46.5-195.8 115.3c27.75 30.12 48.25 66.88 59 107.5C424 243.1 512 147.9 512 32H448z"
                           />
                         </svg>
-                        Plant (strawberry)
+                        Plant (Pumpkin)
                       </td>
                       <td class="px-4 py-3 text-sm">11/06/2022</td>
                     </tr>
                     <tr class="text-gray-700 dark:text-gray-400">
                       <td class="pr-4 py-3">
                         <div class="flex items-center text-sm">
-                          <a href="/dashboard/field/?id=1">
+                          <a href="/dashboard/field/123">
                             <p class="font-semibold">Block 12</p>
                             <p class="text-xs text-gray-600 dark:text-gray-400">
                               Field 2
@@ -125,7 +125,7 @@
                     <tr class="text-gray-700 dark:text-gray-400">
                       <td class="pr-4 py-3">
                         <div class="flex items-center text-sm">
-                          <a href="/dashboard/field/?id=1">
+                          <a href="/dashboard/field/123">
                             <p class="font-semibold">Block 4</p>
                             <p class="text-xs text-gray-600 dark:text-gray-400">
                               Field 6
@@ -156,7 +156,7 @@
           </div>
         </div>
         <div
-          class="border-t rounded-t-none flex w-full justify-end rounded-lg shadow-xs dark:border-gray-700 bg-gray-50 dark:bg-gray-800"
+          class="border-t rounded-t-none flex w-full justify-end rounded-lg dark:border-gray-700 bg-gray-50 dark:bg-gray-800  px-4 py-4 sm:px-6 sm:py-4 md:p-6 lg:p-8"
         >
           <div class="w-1/4 p-4">
             <a

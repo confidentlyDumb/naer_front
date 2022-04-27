@@ -1,11 +1,23 @@
 <script setup>
-import DashField from '@/components/dashboard/DashField.vue'
+
+    import Sidebar   from '@/components/dashboard/Sidebar.vue'
+    import Header    from '@/components/dashboard/Header.vue'
+    import DashField from '@/components/dashboard/DashField.vue'
+    import Dropdown  from '@/components/dashboard/dropdown.vue'
+
 </script>
 
 <template>
-    <div class="flex-1 h-full max-w-4xl mx-auto overflow-hidden bg-white rounded-lg shadow-xl dark:bg-gray-800">
-        <div class="flex flex-col overflow-y-auto md:flex-row">
-            <DashField />
+    <main class="flex bg-gray-50 dark:bg-gray-900 border-l dark:border-gray-700 border-gray-200">
+        
+        <Sidebar />
+        <div class="flex flex-col flex-1 w-full ">
+
+            <Header />
+            <DashField class=" min-h-screen mb-10" />
+
         </div>
-    </div>
+
+    </main>
+
 </template>
