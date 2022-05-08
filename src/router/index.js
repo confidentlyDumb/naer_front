@@ -68,7 +68,7 @@ const router = createRouter({
     },
     {
         path: '/dashboard/workers',
-        name: 'robots',
+        name: 'workers',
         component: () => import('../views/dashboard/DashWorkers.vue')
     },
   ]
