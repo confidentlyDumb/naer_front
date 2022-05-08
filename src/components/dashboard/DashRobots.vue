@@ -463,7 +463,6 @@
                                           };
 
                             for (let key in fields) {
-                                console.log(modal.querySelector('[name="' + key + '"]'));
                                 modal.querySelector('[name="' + key + '"]').value = fields[key];
                             }
                     }
