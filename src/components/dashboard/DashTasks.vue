@@ -1,9 +1,9 @@
 <template>
   <div class="container px-6 mx-auto grid">
-    <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
+  <div>
+    <h2 class="mb-6 mt-10 text-2xl font-semibold text-gray-700 dark:text-gray-200">
       Recent activity
     </h2>
-
     <!-- New Table -->
     <div class="w-full overflow-hidden rounded-lg shadow-xs">
       <div class="w-full overflow-x-auto">
@@ -568,6 +568,7 @@
         </span>
       </div>
     </div>
+  </div>
 
 
     <div id="editTask" class="hidden fixed inset-0 z-30 items-end bg-black bg-opacity-50 sm:items-center sm:justify-center transition ease-in-out duration-300 opacity-0">
