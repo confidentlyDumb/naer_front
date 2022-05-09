@@ -4,6 +4,7 @@
     import Header   from '@/components/dashboard/Header.vue'
     import DashMain from '@/components/dashboard/DashTasks.vue'
     import Dropdown from '@/components/dashboard/dropdown.vue'
+    import editTask   from '@/components/dashboard/Modals/editTask.vue';
 
 </script>
 
@@ -15,6 +16,7 @@
 
             <Header />
             <DashMain class=" min-h-screen mb-10" />
+            <editTask />
 
         </div>
 

@@ -3,7 +3,8 @@
     import Sidebar    from '@/components/dashboard/Sidebar.vue'
     import Header     from '@/components/dashboard/Header.vue'
     import DashField  from '@/components/dashboard/DashField.vue'
-    import Dropdown   from '@/components/dashboard/dropdown.vue';
+    import Dropdown   from '@/components/dashboard/dropdown.vue'
+    import editTask   from '@/components/dashboard/Modals/editTask.vue';
 
 </script>
 
@@ -15,6 +16,8 @@
 
             <Header />
             <DashField class=" min-h-screen mb-10" />
+
+            <editTask />
 
         </div>
 
