@@ -6,6 +6,7 @@
     import Dropdown from '@/components/dashboard/dropdown.vue'
     import editTask from '@/components/dashboard/Modals/editTask.vue'
     import remTask  from '@/components/dashboard/Modals/remTask.vue'
+    import addTask  from '@/components/dashboard/Modals/addTask.vue'
 
 </script>
 
@@ -19,6 +20,7 @@
             <DashMain class=" min-h-screen mb-10" />
             <editTask />
             <remTask />
+            <addTask />
 
         </div>
 
