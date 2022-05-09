@@ -1,6 +1,6 @@
 <script setup>
 import Register from '@/components/Register.vue'
-import Modal from '@/components/modals/Alert.vue'
+import Modal from '@/components/dashboard/alerts/Alert.vue'
 </script>
 
 <template>
