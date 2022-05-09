@@ -1,10 +1,11 @@
 <script setup>
 
-    import Sidebar    from '@/components/dashboard/Sidebar.vue'
-    import Header     from '@/components/dashboard/Header.vue'
-    import DashField  from '@/components/dashboard/DashField.vue'
-    import Dropdown   from '@/components/dashboard/dropdown.vue'
-    import editTask   from '@/components/dashboard/Modals/editTask.vue';
+    import Sidebar   from '@/components/dashboard/Sidebar.vue'
+    import Header    from '@/components/dashboard/Header.vue'
+    import DashField from '@/components/dashboard/DashField.vue'
+    import Dropdown  from '@/components/dashboard/dropdown.vue'
+    import editTask  from '@/components/dashboard/Modals/editTask.vue'
+    import remTask   from '@/components/dashboard/Modals/remTask.vue'
 
 </script>
 
@@ -18,6 +19,7 @@
             <DashField class=" min-h-screen mb-10" />
 
             <editTask />
+            <remTask />
 
         </div>
 

@@ -14,7 +14,7 @@
             
             <div class="mt-4 mb-6">
                 <p class="mb-2 text-lg font-semibold text-gray-700 dark:text-gray-300">
-                    Add task
+                    Edit task
                 </p>
                 <div class="py-3 mb-8 bg-white rounded-lg shadow-md dark:bg-gray-800">
                 <label class="block text-sm">
@@ -23,6 +23,10 @@
                     </span>
                     <select name="task" class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-select focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray">
                     <option>Plant</option>
+                    <option>Harvest</option>
+                    <option>Water</option>
+                    <option>Weed</option>
+                    <option>Fertilize</option>
                     </select>
                 </label>
 
@@ -32,6 +36,8 @@
                     </span>
                     <select name="worker" class="block w-full mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-select focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:focus:shadow-outline-gray">
                     <option>Robot Name (id: 123, seeder)</option>
+                    <option>Name Surname</option>
+                    <option>Name1 Surname1</option>
                     </select>
                 </label>
                 
@@ -44,6 +50,8 @@
                     <option>2</option>
                     <option>3</option>
                     <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
                     </select>
                 </label>
 
