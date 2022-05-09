@@ -8,6 +8,7 @@
     import remTask    from '@/components/dashboard/Modals/remTask.vue'
     import remBlock   from '@/components/dashboard/Modals/remBlock.vue'
     import editBlock  from '@/components/dashboard/Modals/editBlock.vue'
+    import addBlock   from '@/components/dashboard/Modals/addBlock.vue'
 
 </script>
 
@@ -24,6 +25,7 @@
             <remTask />
             <remBlock />
             <editBlock />
+            <addBlock />
 
         </div>
 
