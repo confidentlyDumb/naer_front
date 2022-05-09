@@ -1,11 +1,15 @@
 <script setup>
 
-    import Sidebar  from '@/components/dashboard/Sidebar.vue'
-    import Header   from '@/components/dashboard/Header.vue'
-    import DashMain from '@/components/dashboard/DashWorkers.vue'
-    import Dropdown from '@/components/dashboard/dropdown.vue'
-    import editTask from '@/components/dashboard/Modals/editTask.vue'
-    import remTask  from '@/components/dashboard/Modals/remTask.vue'
+    import Sidebar    from '@/components/dashboard/Sidebar.vue'
+    import Header     from '@/components/dashboard/Header.vue'
+    import DashMain   from '@/components/dashboard/DashWorkers.vue'
+    import Dropdown   from '@/components/dashboard/dropdown.vue'
+    import editTask   from '@/components/dashboard/Modals/editTask.vue'
+    import remTask    from '@/components/dashboard/Modals/remTask.vue'
+    import addWorker  from '@/components/dashboard/Modals/addWorker.vue'
+    import remWorker  from '@/components/dashboard/Modals/remWorker.vue'
+    import editWorker from '@/components/dashboard/Modals/editWorker.vue'
+    import editData   from '@/components/dashboard/Modals/editData.vue'
 
 </script>
 
@@ -19,6 +23,10 @@
             <DashMain class=" min-h-screen mb-10" />
             <editTask />
             <remTask />
+            <addWorker />
+            <remWorker />
+            <editWorker />
+            <editData />
 
         </div>
 
