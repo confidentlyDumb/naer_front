@@ -1,11 +1,13 @@
 <script setup>
 
-    import Sidebar   from '@/components/dashboard/Sidebar.vue'
-    import Header    from '@/components/dashboard/Header.vue'
-    import DashField from '@/components/dashboard/DashField.vue'
-    import Dropdown  from '@/components/dashboard/dropdown.vue'
-    import editTask  from '@/components/dashboard/Modals/editTask.vue'
-    import remTask   from '@/components/dashboard/Modals/remTask.vue'
+    import Sidebar    from '@/components/dashboard/Sidebar.vue'
+    import Header     from '@/components/dashboard/Header.vue'
+    import DashField  from '@/components/dashboard/DashField.vue'
+    import Dropdown   from '@/components/dashboard/dropdown.vue'
+    import editTask   from '@/components/dashboard/Modals/editTask.vue'
+    import remTask    from '@/components/dashboard/Modals/remTask.vue'
+    import remBlock   from '@/components/dashboard/Modals/remBlock.vue'
+    import editBlock  from '@/components/dashboard/Modals/editBlock.vue'
 
 </script>
 
@@ -20,11 +22,11 @@
 
             <editTask />
             <remTask />
+            <remBlock />
+            <editBlock />
 
         </div>
 
     </main>
-
-    <Modals />
 
 </template>
